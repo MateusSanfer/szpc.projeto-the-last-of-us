@@ -15,7 +15,7 @@ botoesCarrossel.forEach((botao, indice) => {
     
    desativarBotaoSelecionado();
 
-   selecionarBotaoCarrosel(botao);
+   selecionarBotaoCarrossel(botao);
 
    esconderImagemAtiva();
 
