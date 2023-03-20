@@ -15,7 +15,7 @@ botoesCarrossel.forEach((botao, indice) => {
     
    desativarBotaoSelecionado();
 
-   selionarBotaoCarrosel(botao);
+   selecionarBotaoCarrosel(botao);
 
    esconderImagemAtiva();
 
@@ -27,7 +27,7 @@ function mostrarImagemDeFundo(indice) {
   imagens[indice].classList.add('ativa');
 }
 
-function selionarBotaoCarrosel(botao) {
+function selecionarBotaoCarrosel(botao) {
   botao.classList.add('selecionado');
 }
 
